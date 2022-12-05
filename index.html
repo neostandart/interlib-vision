@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Презентация</title>
+	<link rel="icon" href="res/favicon.ico" type="image/x-icon">
+
+	<!-- Bootstrap styles -->
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	<!-- Application styles -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/adaptive.css">
+</head>
+
+<body role="application">
+
+	<div class="app-frame">
+		<header class="py-1 pl-4 pr-1 h6">
+			<div>Презентация - </div>
+			<div class="ml-2 title"></div>
+			<button id="btnScreenToggle" class="btn btn-light bg-light"></button>
+		</header>
+
+
+		<div class="app-splashscreen">
+			<div>
+				<h4 class="text-lowercase mt-3">презентация</h4>
+				<h3 class="text-uppercase mb-3 text-center">Система управления виртуальными учебниками</h3>
+				<img src="res/images/splash.png" />
+				<i class="fa fa-spinner fa-spin fa-5x mt-3"></i>
+			</div>
+		</div>
+
+		<div class="app-mainview">
+		</div>
+
+		<div class="navpanel">
+			<button id="btnNavPages" href="#" class="btn">
+				<svg viewBox="0 0 32 32" width="32" height="32">
+					<path d="m 4,6 v 4 H 28 V 6 Z M 4,18 H 28 V 14 H 4 Z m 0,8 H 28 V 22 H 4 Z"></path>
+				</svg>
+			</button>
+
+			<button id="btnNavFirst" href="#" class="btn">
+				<svg viewBox="0 0 32 32" width="32" height="32">
+					<path d="M0 26h6v-20h-6v20zM22 12v-6l-12 10 12 10v-6h10v-8h-10z"></path>
+				</svg>
+			</button>
+
+			<button id="btnNavPrev" href="#" class="btn">
+				<svg viewBox="0 0 32 32" width="32" height="32">
+					<path d="M 18,12 V 6 L 6,16 18,26 v -6 h 8 v -8 z"></path>
+				</svg>
+			</button>
+
+			<button id="btnNavNext" href="#" class="btn">
+				<svg viewBox="0 0 32 32" width="32" height="32">
+					<path d="M 26,16 14,6 v 6 H 6 v 8 h 8 v 6 z"></path>
+				</svg>
+			</button>
+
+			<button id="btnNavLast" href="#" class="btn">
+				<svg viewBox="0 0 32 32" width="32" height="32">
+					<path d="M26 6v20h6v-20h-6zM10 12h-10v8h10v6l12-10-12-10v6z"></path>
+				</svg>
+			</button>
+		</div>
+
+		<div id="divPageSelectPanel">
+			<div id="pnlPages">
+				<div data-uri="pages/master.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+
+				<div data-uri="pages/page-01.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-02.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-03.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-04.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-05.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-06.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-07.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-08.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-09.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-10.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-11.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-12.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+				<div data-uri="pages/page-13.html">
+					<object type="image/svg+xml" data="res/images/page-thumb.svg"></object>
+				</div>
+			</div>
+
+			<button id="btnClose" class="btn">
+				<svg height="24" width="24" viewBox="0 0 24 24">
+					<path
+						d="M 22.62712,5.5049906 16.13211,12 l 6.49501,6.495009 c 0.486595,0.486605 0.486595,1.279962 0,1.777144 l -2.358932,2.358933 c -0.486606,0.486596 -1.279962,0.486596 -1.777145,0 l -6.49501,-6.49501 -6.4950092,6.49501 c -0.4866051,0.486596 -1.2799617,0.486596 -1.7771446,0 L 1.3649467,20.272153 c -0.48659567,-0.486605 -0.48659567,-1.279961 0,-1.777144 L 7.8599564,12 1.3649467,5.5049906 c -0.48659567,-0.4865957 -0.48659567,-1.2799616 0,-1.7771445 L 3.7238792,1.3689135 c 0.486605,-0.48659565 1.2799616,-0.48659565 1.7771446,0 l 6.4950092,6.4950095 6.49501,-6.4950095 c 0.486605,-0.48659565 1.279962,-0.48659565 1.777145,0 l 2.358932,2.3589326 c 0.497174,0.4866049 0.497174,1.2799615 0,1.7771445 z">
+					</path>
+				</svg>
+			</button>
+		</div>
+
+		<div id="divPageLoadIndicator">
+			<img src="res/images/load-waiting.svg" />
+		</div>
+
+	</div>
+
+	<!-- Icon library (Awesome) -->
+	<link rel="stylesheet" href="res/fonts/awesome/css/font-awesome.min.css">
+	<!-- JQuery and Bootstrap code -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Modernizr code -->
+	<script src="lib/modernizr/modernizr.js"></script>
+	<!-- Application code -->
+	<script src="js/presentation.js"></script>
+	<!-- Start Application -->
+	<script>
+		(() => {
+			document.addEventListener("DOMContentLoaded", () => { MasterDetail.MainView.launch("pages/master.html?ver=1007"); });
+		})();
+	</script>
+
+</body>
+
+</html>

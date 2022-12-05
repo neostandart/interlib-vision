@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Страница 4</title>
+
+	<style>
+		#pageVMBook #imgScheme {
+			position: relative;
+			max-width: 100%;
+			margin: 0.25rem auto;
+		}
+
+		#pageVMBook #calloutOurBooks {
+			position: relative;
+			max-width: 100%;
+			margin: 0.25rem auto 1.75rem auto;
+			padding: 0.5rem 0.75rem;
+			color:white;
+			text-align: justify;
+			font-size: 1.2rem;
+			background: #17a2b8;
+			border-radius: .5em;
+		}
+
+		#pageVMBook #calloutOurBooks:after {
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			border: 30px solid transparent;
+			border-top-color: #17a2b8;
+			border-bottom: 0;
+			transform: translate(-50%, 100%);
+		}
+
+
+		@media screen and (orientation:landscape) {
+			#pageVMBook #imgScheme {
+				float: right;
+				max-width: 49%;
+				margin: 0px 0px 0.25rem auto;
+			}
+
+			#pageVMBook #calloutOurBooks {
+				position: relative;
+				max-width: 50%;
+				font-size: 1.2rem;
+				border-radius: .5em;
+				margin: 0.25rem auto 1.75rem 0px;
+			}
+
+		}
+	</style>
+
+
+</head>
+
+<body>
+	<div id="pageVMBook" class="container presn-page">
+		<h1 class="page-caption">Виртуальный учебник</h1>
+
+		<img id="imgScheme" src="./res/images/page-03/vmbook-scheme.png" />
+
+		<div id="calloutOurBooks">
+			Это не прос&shy;то раз&shy;мы&shy;тое поня&shy;тие в виде текс&shy;то&shy;вых фай&shy;лов или лоскутов инфор&shy;мации,
+			разбро&shy;сан&shy;ных по стра&shy;ницам тради&shy;ци&shy;он&shy;ных интернет-сайтов, а спе&shy;ци&shy;ализи&shy;рован&shy;ная прог&shy;рам&shy;мная тех&shy;но&shy;ло&shy;гия,
+			вклю&shy;ча&shy;ющая в себя:
+		</div>
+
+		<ul class="text-justify">
+			<li>
+				Привычную и естественную для чело&shy;века <strong>модель книги</strong>, осна&shy;щён&shy;ную интуи&shy;тивно понят&shy;ными сред&shy;ствами нави&shy;гации и разви&shy;тым уни&shy;фици&shy;рован&shy;ным поль&shy;зователь&shy;ским интер&shy;фей&shy;сом. 
+			</li>
+			<li>
+				<strong>Специализированный формат файла</strong> учеб&shy;ника, понят&shy;ный специ&shy;алисту и удобно обра&shy;батыва&shy;емый прог&shy;рам&shy;мными сред&shy;ствами. В один файл упа&shy;ковыва&shy;ется весь кон&shy;тент учеб&shy;ника, вклю&shy;чая мульти&shy;медий&shy;ные дан&shy;ные и другие свя&shy;зан&shy;ные файлы, а также дизайн и инте&shy;рак&shy;тивная прог&shy;рам&shy;мная логика, т. е. логика взаи&shy;модей&shy;ствия вирту&shy;ального учеб&shy;ника с поль&shy;зова&shy;телем.
+			</li>
+			<li>
+				Расширяемый <strong>декла&shy;ративный язык раз&shy;метки</strong> страниц, сред&shy;ствами кото&shy;рого фор&shy;миру&shy;ется струк&shy;тура учеб&shy;ника и соз&shy;даётся непос&shy;редст&shy;венно учеб&shy;ный мате&shy;риал. Освоить язык раз&shy;метки может любой чело&shy;век без специ&shy;ального IT-обра&shy;зования, а прог&shy;раммист при необхо&shy;димости спосо&shy;бен органично внести в функци&shy;онал конкрет&shy;ного учеб&shy;ника любую недос&shy;тающую логику.
+			</li>
+			<li>
+				Дополнительные <strong>програм&shy;мные библи&shy;отеки</strong>, рас&shy;ширя&shy;ющие функ&shy;циональ&shy;ные воз&shy;мож&shy;ности вир&shy;туаль&shy;ных учеб&shy;ников.
+			</li>
+		</ul>
+
+		<div class="jumbotron text-center">
+				<h5>Поэтому в контексте данной технологии такие учебники получили название</h5>
+				<h2>ВИРТУАЛЬНЫЕ УПРАВЛЯЕМЫЕ УЧЕБНИКИ</h2>
+				<h3>(Virtual Managed Textbooks)</h3>
+		</div>	
+
+	</div>
+</body>
+
+</html>

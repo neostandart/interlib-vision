@@ -1,0 +1,44 @@
+/*
+==============================================================================
+Font Size 
+==============================================================================
+*/
+
+@media screen and (min-width: 0px) {
+    /**/
+}
+
+@media screen and (min-width: 576px) {
+    /**/
+}
+
+@media screen and (min-width: 768px) {
+    /**/
+}
+
+@media screen and (min-width: 992px) {
+    /**/
+}
+
+@media screen and (min-width: 1200px) {
+    /**/
+}
+
+/*
+==============================================================================
+
+==============================================================================
+*/
+
+@media screen and (orientation:landscape) {
+	html {
+		font-size: 120%;
+	}
+}
+
+
+@media screen and (orientation:portrait) {
+    .presn-page>.page-caption {
+        font-size: 2.4rem;
+    }
+}

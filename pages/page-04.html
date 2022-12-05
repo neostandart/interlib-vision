@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Страница 5</title>
+
+	<style>
+		#pageVMBookFile .imageline>.scrollcontent .arrow-right {
+			position: absolute;
+			z-index: 100;
+			top: 50%;
+			left: 100%;
+			transform: translate(-50%, -50%);
+		}
+
+		#pageVMBookFile .imageline>.scrollcontent .arrow-down {
+			position: absolute;
+			z-index: 100;
+			top: 100%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		#pageVMBookFile .imageline>.scrollcontent .arrow-up {
+			position: absolute;
+			z-index: 100;
+			top: 0px;
+			left: 50%;
+			transform: translate(-50%, -90%);
+		}
+	</style>
+
+</head>
+
+
+<body>
+	<div id="pageVMBookFile" class="container presn-page">
+		<h1 class="page-caption">От файла до дисплея</h1>
+
+		<p class="text-justify mb-3">В плане физической реализации виртуальные учебники представляют собой расширяемые
+			программные модули, написанные на языках: XAML (пользовательский интерфейс) и C# (внутренняя логика). Каждый
+			модуль (учебник) упакован в отдельный файл с расширением *.imbook (Interactive Managed Textbook) и включает
+			в себя как сам учебный материал так и информацию о его представлении/дизайне и поведении. Т.е. каждый
+			учебник является самодостаточной автономной единицей, включающей в себя всё необходимое для его
+			использования. Такой подход даёт возможность устанавливать учебный материал на удалённые пользо­вательские
+			компьютеры и работать с ним автономно без подключения к локальной сети или сети Интернет.</p>
+
+		<h6 class="my-3"><em>На изображении показан файл виртуального учебника с именем "13-IIE-RC-Theme-3-es.imbook" (после установки на компьютер пользователя), его внутренняя структура и представление на уровне программной
+				оболочки.</em></h6>
+
+		<div class="imageline">
+			<div class="scrollcontent">
+				<div class="row no-gutters mb-3 text-center">
+					<div class="col pr-2">
+						<figure class="figure">
+							<figcaption class="figure-caption text-left mb-1">Файловая система</figcaption>
+							<img src="./res/images/page-04/image-01.png" class="img-fluid" alt="Responsive image">
+						</figure>
+						<svg class="arrow-right" width="48" height="24" viewBox="0 0 48 24">
+							<path id="path819" style="fill:#ff0000;stroke-width:1"
+								d="M 1,14.746515 V 9.2394893 H 37.469843 L 29.313027,1.0000009 h 6.81122 L 47,12.000001 l -10.875753,11 h -6.81122 l 8.156816,-8.253486 z" />
+						</svg>
+						<svg class="arrow-down" width="24" height="48" viewBox="0 0 24 48">
+							<path style="fill:#ff0000;stroke-width:1"
+								d="m 9.253486,1 h 5.507026 V 37.469843 L 23,29.313027 v 6.81122 L 12,47 1,36.124247 v -6.81122 l 8.253486,8.156816 z" />
+						</svg>
+					</div>
+					<div class="col px-2">
+						<figure class="figure">
+							<figcaption class="figure-caption text-left mb-1">Программная оболочка</figcaption>
+							<img src="./res/images/page-04/image-02.png" class="img-fluid" alt="Responsive image">
+						</figure>
+						<svg class="arrow-right" width="48" height="24" viewBox="0 0 48 24">
+							<path id="path819" style="fill:#ff0000;stroke-width:1"
+								d="M 1,14.746515 V 9.2394893 H 37.469843 L 29.313027,1.0000009 h 6.81122 L 47,12.000001 l -10.875753,11 h -6.81122 l 8.156816,-8.253486 z" />
+						</svg>
+					</div>
+					<div class="col pl-2">
+						<figure class="figure">
+							<figcaption class="figure-caption text-left mb-1">Открытая страница</figcaption>
+							<img src="./res/images/page-04/image-03.png" class="img-fluid" alt="Responsive image">
+						</figure>
+					</div>
+				</div>
+
+				<div class="row no-gutters text-center">
+					<div class="col pr-2">
+						<figure class="figure">
+							<figcaption class="figure-caption text-right mb-1">Внутреннее содержимое файла</figcaption>
+							<img src="./res/images/page-04/image-11.png" class="img-fluid" alt="Responsive image">
+						</figure>
+						<svg class="arrow-right" width="48" height="24" viewBox="0 0 48 24">
+							<path style="fill:#ff0000;stroke-width:1"
+								d="M 1,14.746515 V 9.2394893 H 37.469843 L 29.313027,1.0000009 h 6.81122 L 47,12.000001 l -10.875753,11 h -6.81122 l 8.156816,-8.253486 z" />
+						</svg>
+					</div>
+					<div class="col px-2">
+						<figure class="figure">
+							<figcaption class="figure-caption text-left mb-1">виртуального учебника</figcaption>
+							<img src="./res/images/page-04/image-12.png" class="img-fluid" alt="Responsive image">
+						</figure>
+						<svg class="arrow-right" width="48" height="24" viewBox="0 0 48 24">
+							<path id="path819" style="fill:#ff0000;stroke-width:1"
+								d="M 1,14.746515 V 9.2394893 H 37.469843 L 29.313027,1.0000009 h 6.81122 L 47,12.000001 l -10.875753,11 h -6.81122 l 8.156816,-8.253486 z" />
+						</svg>
+					</div>
+					<div class="col pl-2">
+						<figure class="figure">
+							<figcaption class="figure-caption text-left mb-1">Разметка страницы</figcaption>
+							<img src="./res/images/page-04/image-13.png" class="img-fluid" alt="Responsive image">
+						</figure>
+						<svg class="arrow-up" width="24" height="48" viewBox="0 0 24 48">
+							<path style="fill:#ff0000;stroke-width:1"
+								d="m 9.253486,47 h 5.507026 V 10.530157 L 23,18.686973 v -6.81122 L 12,1 1,11.875753 v 6.81122 l 8.253486,-8.156816 z" />
+						</svg>
+					</div>
+				</div>
+			</div>
+
+			<div class="horzscrollpointer">
+				<svg class="pointer" viewBox="0 0 64 48" height="48" width="64">
+					<path style="stroke-width:1"
+						d="m 2.7624766,33.027819 q -1.7624763,-3.799117 -1.7624763,-8.655712 0,-5.483267 2.0758054,-9.439042 H 11.45736 Q 21.758054,9.919799 29.51295,7.687327 l 8.499053,4.660769 13.629817,0.313329 h 2.859127 Q 63,12.661425 63,17.165537 q 0,4.073278 -7.715728,4.073278 l -2.310804,-0.03922 -12.611497,0.234994 v 2.27164 q 0,4.190769 -3.250791,5.404916 v 1.449157 q 0,4.308272 -4.386606,4.817427 0.07834,0.548336 0.07834,0.900833 0,2.349961 -2.232471,3.211613 -2.193302,0.822498 -8.303219,0.822498 -3.211624,0 -5.326595,-0.313329 -5.718258,-3.015803 -8.3815556,-6.971578 z" />
+				</svg>
+				<div class="h4 label">ПРОКРУТКА</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>

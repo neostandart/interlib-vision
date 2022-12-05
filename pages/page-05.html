@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Страница 6</title>
+
+	<style>
+		#pageShell .imageline>.scrollcontent .arrow-right {
+			position: absolute;
+			z-index: 100;
+			top: 50%;
+			left: 100%;
+			transform: translate(-50%, -50%);
+		}
+
+		#pageShell #calloutLabel {
+			position: relative;
+			max-width: 100%;
+			margin: 0px auto 1.3rem auto;
+			padding: 0.5rem 0.25rem 0.75rem 0.25rem;
+			color: white;
+			text-align: center;
+			line-height: 1.1rem;
+			background: #17a2b8;
+			border-radius: .5em;
+		}
+
+		#pageShell #calloutLabel:after {
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			border: 20px solid transparent;
+			border-top-color: #17a2b8;
+			border-bottom: 0;
+			transform: translate(-50%, 100%);
+		}
+	</style>
+</head>
+
+<body>
+	<div id="pageShell" class="container presn-page">
+		<h1 class="page-caption">Программная оболочка</h1>
+
+		<p class="text-justify">Файлы виртуальных учебников могут выступать как самодостаточные информационные единицы
+			или могут быть
+			объединены в пакеты (например учебные курсы) с системой внутренних ссылок и общих элементов (словари,
+			справочники и т. д.). Но при этом весь учебный материал можно рассматривать как часть единой интегрированной
+			среды, управление которой осуществляет специальное программное приложение <strong>«Рабочее место учащегося» (РМУ)</strong>.
+		</p>
+
+
+		<div class="imageline">
+			<div class="scrollcontent">
+				<div class="row mb-1 text-justify">
+					<div class="col-auto">
+						<img src="./res/images/page-05/cloud-download.svg" />
+					</div>
+					<div class="col">
+						<p>Приложение легко устанавливается с сайта учебной организации на рабочий компьютер и может
+							работать автономно, без Интернета. Исходные экземпляры учебников хранятся на сервере в сети
+							Интернет или в локальной сети организации в виде структурированного каталога и могут
+							выборочно устанавливаться на рабочие компьютеры через интерфейс РМУ. При этом отдельные
+							материалы могут быть защищены от нежелательного доступа и распространения.</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<div id="calloutLabel">
+							<small>Окно установки учебных ма&shy;тери&shy;алов на ком&shy;пьютер пользователя</small>
+						</div>
+					</div>
+					<div class="col">
+						<div id="calloutLabel">
+							<small>Папки верхнего уровня на пользовательском компьютере</small>
+						</div>
+					</div>
+					<div class="col">
+						<div id="calloutLabel">
+							<small>Открытая (текущая) папка, с комплектом учебных пособий</small>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-3 text-justify">
+					<div class="col">
+						<img src="./res/images/page-05/image-01.png" class="img-fluid" alt="Responsive image">
+						<svg class="arrow-right" width="48" height="24" viewBox="0 0 48 24">
+							<path id="path819" style="fill:#ff0000;stroke-width:1"
+								d="M 1,14.746515 V 9.2394893 H 37.469843 L 29.313027,1.0000009 h 6.81122 L 47,12.000001 l -10.875753,11 h -6.81122 l 8.156816,-8.253486 z" />
+						</svg>
+					</div>
+					<div class="col">
+						<img src="./res/images/page-05/image-02.png" class="img-fluid" alt="Responsive image">
+						<svg class="arrow-right" width="48" height="24" viewBox="0 0 48 24">
+							<path id="path819" style="fill:#ff0000;stroke-width:1"
+								d="M 1,14.746515 V 9.2394893 H 37.469843 L 29.313027,1.0000009 h 6.81122 L 47,12.000001 l -10.875753,11 h -6.81122 l 8.156816,-8.253486 z" />
+						</svg>
+					</div>
+					<div class="col">
+						<img src="./res/images/page-05/image-03.png" class="img-fluid" alt="Responsive image">
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="horzscrollpointer">
+				<svg class="pointer" viewBox="0 0 64 48" height="48" width="64">
+					<path style="stroke-width:1"
+						d="m 2.7624766,33.027819 q -1.7624763,-3.799117 -1.7624763,-8.655712 0,-5.483267 2.0758054,-9.439042 H 11.45736 Q 21.758054,9.919799 29.51295,7.687327 l 8.499053,4.660769 13.629817,0.313329 h 2.859127 Q 63,12.661425 63,17.165537 q 0,4.073278 -7.715728,4.073278 l -2.310804,-0.03922 -12.611497,0.234994 v 2.27164 q 0,4.190769 -3.250791,5.404916 v 1.449157 q 0,4.308272 -4.386606,4.817427 0.07834,0.548336 0.07834,0.900833 0,2.349961 -2.232471,3.211613 -2.193302,0.822498 -8.303219,0.822498 -3.211624,0 -5.326595,-0.313329 -5.718258,-3.015803 -8.3815556,-6.971578 z" />
+				</svg>
+				<div class="h4 label">ПРОКРУТКА</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>
